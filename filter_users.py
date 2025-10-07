@@ -13,6 +13,9 @@ def filter_users_by_name(name):
 def filter_by_age(age):
     pass
 
+def filter_by_email(email):
+    pass
+
 if __name__ == "__main__":
     filter_option = input("What would you like to filter by? (Currently, only 'name' is supported): ").strip().lower()
 
